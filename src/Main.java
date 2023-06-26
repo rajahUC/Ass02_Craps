@@ -19,7 +19,7 @@ public class Main
             int crapsRoll = die1 + die2;
 
             System.out.println("Die 1 = " + die1 + "\nDie 2 = " + die2 + "\nSum of the dice: " + crapsRoll);
-            String continueYN = "";
+            String continueQ = "";
 
             if (pointCase == 0)
             {
@@ -27,8 +27,8 @@ public class Main
                 {
                     System.out.println("Oh no! You crapped out!");
                     System.out.print("Press any key to continue playing, press Q to quit: ");
-                    continueYN = in.nextLine();
-                    if(continueYN.equalsIgnoreCase("Q"))
+                    continueQ = in.nextLine();
+                    if(continueQ.equalsIgnoreCase("Q"))
                     {
                         done = true;
                     }
@@ -37,8 +37,8 @@ public class Main
                 {
                     System.out.println("You won with a natural!");
                     System.out.print("Press any key to continue playing, press Q to quit: ");
-                    continueYN = in.nextLine();
-                    if(continueYN.equalsIgnoreCase("Q"))
+                    continueQ = in.nextLine();
+                    if(continueQ.equalsIgnoreCase("Q"))
                     {
                         done = true;
                     }
@@ -58,8 +58,8 @@ public class Main
                     point = 0;
                     pointCase = 0;
                     System.out.print("Press any key to continue playing, press Q to quit: ");
-                    continueYN = in.nextLine();
-                    if(continueYN.equalsIgnoreCase("Q"))
+                    continueQ = in.nextLine();
+                    if(continueQ.equalsIgnoreCase("Q"))
                     {
                         done = true;
                     }
@@ -70,8 +70,8 @@ public class Main
                     point = 0;
                     pointCase = 0;
                     System.out.print("Press any key to continue playing, press Q to quit: ");
-                    continueYN = in.nextLine();
-                    if(continueYN.equalsIgnoreCase("Q"))
+                    continueQ = in.nextLine();
+                    if(continueQ.equalsIgnoreCase("Q"))
                     {
                         done = true;
                     }
